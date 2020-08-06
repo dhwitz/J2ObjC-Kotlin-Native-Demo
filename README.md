@@ -1,5 +1,5 @@
 # J2ObjC Kotlin Native Demo
-A demo for J2ObjC - Kotlin/Native Interop where Java code imports and calls Kotlin code, and then the Java and Kotlin code are translated by J2ObjC and Kotlin/Native, respectively.
+A demo for J2ObjC - Kotlin/Native Interop where Java code imports and calls Kotlin code, and then the Java and Kotlin code is translated by J2ObjC and Kotlin/Native, respectively.
 
 Compile the Kotlin file with `kotlinc-native KotlinSide.kt -produce framework -o ComGoogleKotlinInterop`. The framework name currently needs to be the same as the package name.
 
