@@ -14,7 +14,7 @@ Create the Kotlin Jar file with `kotlinc KotlinSide.kt -include-runtime -java-pa
 Build the J2ObjC fork and compile the Java file with `./j2objc [path-to-file]/JavaSide.java -classpath [path-to-file]/KotlinSide.jar`
 Alternativley, open the translator directory from the fork in your IDE of choice and run the translator with the arguments `[path-to-file]/JavaSide.java -classpath [path-to-file]/KotlinSide.jar`
 
-Create the binary with `./j2objcc [path-to-file]/JavaSide.m  [path-to-file]/JavaSide.h  -framework ComGoogleKotlinInterop -F [path-to-directory-containing framework] -rpath [path-to-directory-containing framework]`
+Create the binary with `./j2objcc [path-to-file]/JavaSide.m  [path-to-file]/JavaSide.h  -framework ComGoogleKotlinInterop -F [path-to-directory-containing-framework] -rpath [path-to-directory-containing-framework]`
 
 Run the resulting file with `./a.out ComGoogleKotlinInteropJavaSide`
 
