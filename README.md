@@ -5,7 +5,7 @@ A demo for J2ObjC - Kotlin/Native Interop where Java code imports and calls Kotl
 
 - Kotlin and Kotlin/Native
 - Java 8
-- [My J2ObjC Fork](https://github.com/dhwitz/j2objc/tree/kotlin-native)
+- [My J2ObjC Fork on the kotlin-native branch](https://github.com/dhwitz/j2objc/tree/kotlin-native)
 
 
 If you use Homebrew on macOS, you can install Kotlin with `brew install kotlin`.
@@ -16,7 +16,7 @@ Before you follow the instructions below, make sure that:
 
 * `kotlinc` is from your Kotlin installation (*not* the Kotlin/Native installation)
 * `kotlinc-native` is from your Kotlin/Native installation
-* `j2objc` and `j2objcc` are from your J2ObjC installation (built from *my* fork [here](https://github.com/dhwitz/j2objc/tree/kotlin-native))
+* `j2objc` and `j2objcc` are from your J2ObjC installation (built from *my* fork on the kotlin-native branch [here](https://github.com/dhwitz/j2objc/tree/kotlin-native))
 
 ## Instructions
 
